@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full WEB SITE | College</title>
+
+    <!-- FONT-AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/favicon" href="images/favicon.png">
+
+    
+     <!--JQUERY-->
+   <script src="http://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <!-- MY CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html" class="mobile-logo"><img src="images/logo.png" alt="LOGO IMG"></a>
+           
+            
+            <div class="nav-links" id="navLinks">
+                <a href="index.html" class="logo"><img src="images/logo.png" alt="LOGO IMG"></a>
+                <a href="index.html" class="logo-blue"><img src="images/logo_blue.png" alt="LOGO IMG"></a>
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box-sub">
+            <h1>Contact Us</h1>
+            </div>
+        </section>
+        <!-- END OF HEADER -->
+
+        <!-- CONTACT US -->
+
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96767.66871453034!2d-74.0562776417969!3d40.71824439999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9c07845a3f67e75f!2sNYU!5e0!3m2!1spt-PT!2sie!4v1623233478033!5m2!1spt-PT!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                    <i class="fas fa-home"></i>
+                    <span>
+                        <h5>72 Lafayette St, New York</h5>
+                        <p> NY 10013, USA</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i>
+                    <span>
+                        <h5>+1 02151 15111</h5>
+                        <p>Monday to Saturday, 10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-envelope"></i>
+                    <span>
+                        <h5>info@emailcom</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+                <div class="contact-col">
+
+                    <form action="form-handler.php" method="post">
+                        <input type="text"  name="name" placeholder="Enter your name" required>
+                        <input type="email" name="email"  placeholder="Enter your email" required>
+                        <input type="text"  name="subject" placeholder="Enter your subject" required>
+                        <textarea rows="8" name="message"  placeholder="your message" required></textarea>
+                        <button type="submit" class="hero-btn black-btn">SEND MESSAGE</button>
+
+
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- END OF CONTACT US -->
+
+
+         <!-- FOOTER -->
+
+        <section class="footer">
+            <h4>About us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                 Eveniet, in nobis? Accusantium eos,<br> reprehenderit consequatur
+                  illo culpa repellendus facilis dolorem!</p>
+
+                  <div class="icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                  </div>
+        </section>
+        <!--END OF  FOOTER -->
+
+
+
+
+
+
+        
+    
+    <!-- MY JS -->
+    <script src="js/main.js" type="application/javascript"></script>
+</body>
+</html>
